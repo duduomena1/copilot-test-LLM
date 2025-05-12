@@ -1,0 +1,16 @@
+{
+  "name": "flappy-stitch-game",
+  "version": "1.0.0",
+  "description": "A simple game inspired by Flappy Bird, featuring Stitch.",
+  "main": "src/scripts/game.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

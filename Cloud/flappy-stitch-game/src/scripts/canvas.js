@@ -1,0 +1,1 @@
+// This file has been removed as canvas operations are now handled directly in game.js.
