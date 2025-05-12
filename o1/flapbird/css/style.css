@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70c5ce; /* Sky color */
+}
+
+canvas {
+    border: 2px solid #000; /* Border for the canvas */
+    background-color: #fff; /* Background color for the game area */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff0000;
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
+    display: none; /* Hidden by default */
+}
